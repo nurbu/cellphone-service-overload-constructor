@@ -56,7 +56,7 @@ public class CellPhone {
         return owner;
     }
 
-    // Modifications
+    // Modification
 
     public void dial(String callingNumber) {
         System.out.println(owner + "'s phone is calling " + callingNumber);
