@@ -71,5 +71,11 @@ public class CellPhone {
         System.out.println(owner + "'s phone is calling " + callingNumber);
     }
 
+    // Overloaded
+
+    public void dial(CellPhone phone) {
+        System.out.println(phone.phoneNumber);
+    }
+
 
 }

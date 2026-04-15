@@ -21,8 +21,14 @@ public class CellPhoneApplication {
 
         //Calling phones
         newPhone1.dial(newPhone3.getPhoneNumber());
+
         //newPhone2.dial(newPhone1.getPhoneNumber());
+
         newPhone3.dial(newPhone1.getPhoneNumber());
+
+        // Testing overloaded Dial method
+
+        newPhone3.dial(newPhone3);
 
         scanner.close();
     }
